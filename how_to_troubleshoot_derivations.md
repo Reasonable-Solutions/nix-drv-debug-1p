@@ -42,9 +42,9 @@ harder than they need to be.
 
 ## nixfmt: formatting and basic syntax errors
 
-While being a formatting tool first and foremost, nixfmt can be utilized to
+While being a formatting tool first and foremost, [nixfmt](https://github.com/serokell/nixfmt) can be utilized to
 detect syntax errors in your code. `nix-build` can do so too, but sometimes the
-error messages of `nixfmt` are just nicer. Since it's not really evaluating any of the
+error messages of `nixfmt` are nicer. Since it's not really evaluating any of the
 expressions it's only helpful for finding simpler mistakes in the files it's run
 on.
 
